@@ -1,0 +1,11 @@
+{
+	"name": "babel7-sample",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "lerna exec --scope pck1 -- npm start",
+		"postinstall": "lerna bootstrap"
+	},
+	"devDependencies": {
+		"lerna": "^2.5.1"
+	}
+}
